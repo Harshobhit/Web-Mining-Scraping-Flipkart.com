@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> WEB MINING </title>
+
+<style>
+    body
+    {
+        font-family:century gothic;
+    }
+
+    h3
+    {
+        font-family:times new roman;
+    }
+   
+    form
+    {
+        font-family:century gothic;
+    }
+    
+    input[type=button]
+    {
+        border-radius:7px;
+        background-color: blue;
+        width:90px;
+        height:40px;
+        color:white;
+    }
+   
+</style>
+
+</head>
+
+<body>
+    <fieldset>
+    <legend> <h2> Mobile Recommendation </h2> </legend>
+    <form name="form1" action="test.php" method="post">
+    <h3> RAM </h3><br>
+    <input type="checkbox" name="check_list[]" value="2">  2GB RAM <b><br><br>
+    <input type="checkbox" name="check_list[]" value="3">  3GB RAM <b><br><br>
+    <input type="checkbox" name="check_list[]" value="4" >  4GB RAM <b><br><br><br><br>
+    <h3> Rating </h3><br>
+    <input type="checkbox" name="rating[]" value="3.5" >  3.5-4 <b><br><br>
+    <input type="checkbox" name="rating[]" value="4" >  4-4.5 <b><br><br>
+    <input type="checkbox" name="rating[]" value="4.5" >  >4.5 <b><br><br><br><br>
+    <button>submit</button>   
+    </form>
+
+</body>
+</html>    
