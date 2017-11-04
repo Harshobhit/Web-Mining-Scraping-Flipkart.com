@@ -8,4 +8,5 @@ Steps for executing:
 3)Replace the .py file in spiders folder to the file given above(flipkart.py).
 5)Run the crawler by specifying the name of the python file in spiders folder.
 6)Execute and see the power of scrapy.
-##The same crawler can be used for different web sites by changing the xpath and URL.
+
+The same crawler can be used for different web sites by changing the xpath and URL.
